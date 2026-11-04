@@ -12,6 +12,6 @@ public class House extends Building {
 
     @Override
     public void printInfo() {
-        System.out.println("ДОМ. Адрес: " + address + " | Площадь: " + area + " кв.м | Комнат: " + getRoomCount());
+        System.out.println("дом. Адрес: " + address + " | Площадь: " + area + " кв.м | Комнат: " + getRoomCount());
     }
 }
