@@ -36,7 +36,7 @@ public abstract class Building {
         System.out.println("Площадь увеличена на " + extraArea + " кв.м. Новая площадь: " + this.area);
     }
 
-    // cдавать дом в аренду
+    // сдавать дом в аренду
     public void rentOut() {
         this.isRented = true;
         System.out.println("Здание по адресу " + address + " сдано в аренду!");

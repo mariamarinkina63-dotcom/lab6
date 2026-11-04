@@ -7,7 +7,7 @@ package realestate;
 
 public class Main {
     public static void main(String[] args) {
-        // Дом (2 комнаты)
+        // 2 комнаты
         House myHouse = new House("ул. Пушкина, д. 10", 120.5, 10_000_000, 2);
         myHouse.printInfo();
 

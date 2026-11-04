@@ -5,7 +5,7 @@ public class House extends Building {
         super(address, area, price, roomCount); // конструктор родителя
     }
 
-    //  метод для дома
+    // метод для дома
     public void buildGarage() {
         System.out.println("К дому пристроен гараж!");
     }

@@ -11,6 +11,6 @@ public class OfficeBuilding extends Building {
 
     @Override
     public void printInfo() {
-        System.out.println(" ОФИС. Адрес: " + address + " | Площадь: " + area + " кв.м | Кабинетов: " + getRoomCount());
+        System.out.println(" офис. Адрес: " + address + " | Площадь: " + area + " кв.м | Кабинетов: " + getRoomCount());
     }
 }
