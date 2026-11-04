@@ -7,7 +7,7 @@ public class House extends Building {
 
     // метод для дома
     public void buildGarage() {
-        System.out.println("К дому пристроен гараж!");
+        System.out.println("к дому пристроен гараж");
     }
 
     @Override

@@ -17,7 +17,7 @@ public class Room {
         return isRenovated;
     }
 
-    // метод для ремонта
+    // метод для ремoнта
     public void makeRenovation() {
         this.isRenovated = true;
     }

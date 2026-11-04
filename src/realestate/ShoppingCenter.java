@@ -6,7 +6,7 @@ public class ShoppingCenter extends Building {
     }
 
     public void openFoodCourt() {
-        System.out.println("В ТЦ открыт фудкорт со жрачкой!");
+        System.out.println("в тц можно поесть");
     }
 
     @Override

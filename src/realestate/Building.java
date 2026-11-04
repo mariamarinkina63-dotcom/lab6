@@ -18,7 +18,7 @@ public abstract class Building {
         this.rooms = new ArrayList<>();
 
         for (int i = 1; i <= roomCount; i++) {
-            rooms.add(new Room("Комната " + i));
+            rooms.add(new Room("комната " + i));
         }
     }
 

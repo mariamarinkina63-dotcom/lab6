@@ -6,7 +6,7 @@ public class OfficeBuilding extends Building {
     }
 
     public void installServerRoom() {
-        System.out.println("В офисе установлена серверная с охлаждением.");
+        System.out.println("есть кондей");
     }
 
     @Override
