@@ -1,12 +1,12 @@
 package realestate;
 
 public class Room {
-    private String name; // Название комнаты (Кухня, Спальня и т.д.)
-    private boolean isRenovated; // Сделан ли ремонт
+    private String name;
+    private boolean isRenovated;
 
     public Room(String name) {
         this.name = name;
-        this.isRenovated = false; // По умолчанию ремонта нет
+        this.isRenovated = false;
     }
 
     public String getName() {
